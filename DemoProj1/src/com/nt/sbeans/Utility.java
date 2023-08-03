@@ -1,7 +1,10 @@
 package com.nt.sbeans;
 
 public class Utility {
-public void hello() {
+public void hello(){
 	System.out.println("hello");
+}
+public void hai(){
+	System.out.println("hai");
 }
 }
