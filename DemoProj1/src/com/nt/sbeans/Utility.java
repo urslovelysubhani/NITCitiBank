@@ -1,10 +1,11 @@
 package com.nt.sbeans;
 
+import java.util.Date;
+
 public class Utility {
-public void hello(){
-	System.out.println("hello");
+
+	public Date getSysDate(){
+	return new Date();
 }
-public void hai(){
-	System.out.println("hai");
-}
+
 }
